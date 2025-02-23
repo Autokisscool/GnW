@@ -260,7 +260,7 @@ for REPERTOIRE in "${REPERTOIRES_CIBLES[@]}"; do
 
             # Vérifier si l'écriture a réussi
             if [[ $? -eq 0 ]]; then
-            	sed -i 's/^lang=.*$/'lang=\""français"\"'/g' ./language/es-frsh
+            	sed -i 's/^lang=.*$/'lang=\""français"\"'/g' ./language/es-fr.sh
                 echo "✅ Modification terminée pour : $FICHIER"
             fi
 
